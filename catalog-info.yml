@@ -5,8 +5,7 @@ metadata:
   description: demo service
   annotations:
     github.com/project-slug: vsvijesh/backstage-test-component
-  links:
-    name: example-website
+  dependsOn: ['component:example-website']
 spec:
   type: service
   owner: team-a
