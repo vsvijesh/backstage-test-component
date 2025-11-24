@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-service
+  description: demo service
+  annotations:
+    github.com/project-slug: vsvijesh/backstage-test-component
+spec:
+  type: service
+  owner: team-a
+  lifecycle: experimental
+
